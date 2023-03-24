@@ -1,5 +1,6 @@
-#include<stdio.h>
-/** main- A program that runs with proper grammar, 
+#include <stdio.h>
+/** main- A program that 
+runs with proper grammar, 
  * but the outcome is a piece of art
  */
 int main(void)
