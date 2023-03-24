@@ -1,8 +1,10 @@
 #include<stdio.h>
-//Main- A program that prints a line with puts 
-//Return = O (success)
+/**
+* main- A program that prints a line with puts 
+* return = O (success)
+*/
 
 int main(){
-        puts("Programming is like building a multilingual puzzle. \n");
+        puts("\"Programming is like building a multilingual puzzle");
         return 0;
 }
