@@ -1,20 +1,21 @@
-
-#include "holberton.h"
+#include "main.h"
 /**
- * _memset - functn that fills memory with a constnt byte
- *@s: first value
- *@b: 2nd value
- *@n: thirth value
+ * _memset - fill a block of memory with a specific value
+ * @s: starting address of memory to be filled
+ * @b: the desired value
+ * @n: number of bytes to be changed
  *
- * Return: char with result of memset
+ * Return: changed array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	int i = 0;
 
-	for (i = 0; i < n; i++)
+	for (; n > 0; i++)
 	{
 		s[i] = b;
+		n--;
 	}
 	return (s);
 }
+
